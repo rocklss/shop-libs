@@ -1,0 +1,27 @@
+{
+  "name": "shopify-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w --mode development",
+    "tailwind": "npx tailwindcss -i ./main.scss -o ../assets/cw-main.css --watch",
+    "webpack-prod": "webpack -w --mode production",
+    "tailwind-prod": "npx tailwindcss -i ./main.scss -o ../assets/cw-main.css --watch --minify",
+    "dev": "theme watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alpinejs": "^3.13.3",
+    "tailwindcss": "^3.4.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^10.3.0"
+  }
+}
