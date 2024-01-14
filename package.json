@@ -8,8 +8,7 @@
     "webpack": "webpack -w --mode development",
     "tailwind": "npx tailwindcss -i ./main.scss -o ../assets/cw-main.css --watch",
     "webpack-prod": "webpack -w --mode production",
-    "tailwind-prod": "npx tailwindcss -i ./main.scss -o ../assets/cw-main.css --watch --minify",
-    "dev": "theme watch"
+    "tailwind-prod": "npx tailwindcss -i ./main.scss -o ../assets/cw-main.css --watch --minify"
   },
   "keywords": [],
   "author": "",
