@@ -4,8 +4,15 @@
 git submodule add https://github.com/rocklss/shop-libs.git zmodule
 cd zmodule && npm i
 ```
-- Write your JavaScript code within the 'main.js' file, and then execute the following command: `npm run webpack`.
-- To harness the power of Tailwind CSS in your template, simply run the command `npm run tailwind`. Alternatively, you can make updates to your CSS code within the 'main.css' file.
+- Write your JavaScript code within the 'main.js' file, and then execute the following command:
+```
+npm run webpack
+```
+- To harness the power of Tailwind CSS in your template, simply run the command
+```
+npm run tailwind
+```
+Alternatively, you can make updates to your CSS code within the 'main.css' file.
 - The output will include two files: '/assets/cw-main.js' and '/assets/cw-main.css'. To incorporate them into your `theme.liquid` file, simply add the following code snippet just before the closing `</head>` tag:
 ```
 <link rel="stylesheet" href="{{ 'cw-main.css' | asset_url }}">
