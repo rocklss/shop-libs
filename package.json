@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack -w --mode development",
-    "tailwind": "npx tailwindcss -i ./main.scss -o ../assets/cw-main.css --watch",
+    "tailwind": "tailwindcss -i ./main.scss -o ../assets/cw-main.css --watch",
     "webpack-prod": "webpack -w --mode production",
-    "tailwind-prod": "npx tailwindcss -i ./main.scss -o ../assets/cw-main.css --watch --minify"
+    "tailwind-prod": "tailwindcss -i ./main.scss -o ../assets/cw-main.css --watch --minify"
   },
   "keywords": [],
   "author": "",
