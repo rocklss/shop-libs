@@ -6,7 +6,7 @@
   "scripts": {
     "webpack": "webpack -w --mode development",
     "tailwind": "tailwindcss -i ./main.scss -o ../assets/cw-main.css --watch",
-    "webpack-prod": "webpack build",
+    "webpack-prod": "webpack build --mode production",
     "tailwind-prod": "tailwindcss -i ./main.scss -o ../assets/cw-main.css --minify"
   },
   "keywords": [],
