@@ -2,7 +2,7 @@
 - Begin by navigating to your Shopify theme folder and use the following command:
 ```
 git clone https://github.com/rocklss/shop-libs.git zmodule
-cd zmodule && rm -rf .git && npm i
+touch .gitignore && echo "node_modules/" >> .gitignore && cd zmodule && rm -rf .git && npm i
 ```
 - Write your JavaScript code within the 'main.js' file, and then execute the following command:
 ```
