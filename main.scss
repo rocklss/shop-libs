@@ -1,3 +1,9 @@
 /* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
+
+
+/* Firefox only */
+@media(min--moz-device-pixel-ratio:0) {
+  
+}
