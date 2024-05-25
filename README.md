@@ -15,6 +15,6 @@ npm run tailwind
 Alternatively, you can make updates to your CSS code within the 'main.css' file.
 - The output will include two files: '/assets/cw-main.js' and '/assets/cw-main.css'. To incorporate them into your `theme.liquid` file, simply add the following code snippet just before the closing `</head>` tag:
 ```
-{{ 'cw-main.css' | asset_url | stylesheet_tag }}
-<script defer="defer" src="{{ 'cw-main.js' | asset_url }}"></script>
+{{ 'cw-main.css' | asset_url | stylesheet_tag : preload:true }}
+<script src="{{ 'cw-main.js' | asset_url }}" defer="defer"></script>
 ```
